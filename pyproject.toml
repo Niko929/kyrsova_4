@@ -8,6 +8,8 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "stripe (>=13.0.1,<14.0.0)",
+    "dotenv (>=0.9.9,<0.10.0)"
 ]
 
 
