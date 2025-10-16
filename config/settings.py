@@ -146,7 +146,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-#AUTH_USER_MODEL = 'users.User'
+AUTH_USER_MODEL = 'users.User'
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
@@ -202,4 +202,5 @@ CELERY_TASK_TRACK_STARTED = True
 # Максимальное время на выполнение задачи
 CELERY_TASK_TIME_LIMIT = 30 * 60
 
-TELEGRAM_BOT_TOKEN = 'your_bot_token_here'
+#TELEGRAM_BOT_TOKEN = 'your_bot_token_here'
+TELEGRAM_BOT_TOKEN = '1234567890:ABCdefGHIjklMNopQRstUVwxyz'

@@ -2,7 +2,8 @@ from celery import shared_task
 import requests
 from django.utils import timezone
 from django.conf import settings
-from .models import Habit, TelegramUser
+from users.models import  TelegramUser
+from .models import Habit
 
 
 @shared_task

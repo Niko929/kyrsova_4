@@ -6,7 +6,7 @@ from django.contrib.auth.models import User
 from django.core.paginator import Paginator
 from rest_framework_simplejwt.views import TokenObtainPairView
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
-from .models import Habit, HabitTracking, TelegramUser
+from .models import Habit, HabitTracking
 from .serializers import (
     UserRegistrationSerializer,
     HabitSerializer,

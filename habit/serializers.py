@@ -1,8 +1,8 @@
 from rest_framework import serializers
 from django.contrib.auth.models import User
-from .models import Habit, HabitTracking, TelegramUser
+from .models import Habit, HabitTracking
 from .validators import validate_habit_creation
-
+from users.models import  TelegramUser
 
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
